@@ -1,0 +1,72 @@
+/*  Auteur: Samuel Dube
+    Date de création : 2017/12/23
+    Date dernière modification : 2017/12/27
+    Description : Fichier css pour l'apprentissage de javascript
+*/
+
+#answer {
+    color: black;
+    width: 40%;
+}
+
+.btn-default {
+    background-color: purple;
+}
+
+.btn {
+    border-radius: 0 !important;
+    border: none;
+    color: white;
+    font-family: Arial;
+    height: 40px !important;
+    text-transform: uppercase;
+
+}
+
+.btn:hover {
+    background-color: #7f627f;
+}
+
+.selected {
+    background-color: #7f627f !important;
+}
+
+#test {
+    background-color: #323232 !important;
+    color: white;
+}
+
+.banniere {
+    background-color: purple;
+    font-family: Arial;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 1.5% 0;
+    text-transform: uppercase;
+    transition: background-color .6s;
+}
+
+.square {
+    background-color: white;
+    border-radius: 15%;
+    display: inline-block;
+    padding: 11%;
+    margin: .7%;
+    transition: background-color .6s;
+}
+
+.menu {
+    background-color: white;
+}
+
+ul {
+    height: 40px;
+    margin: 0 auto 2% auto;
+    width: 70%;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style: none;
+}
